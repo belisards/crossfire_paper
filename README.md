@@ -44,9 +44,9 @@ pdflatex main.tex
 }
 ```
 
-## License
+## Code and data
 
-Adriano Belisario, Luc Rocher, Scott Hale 2025. This is the author's version of the work.
+[https://github.com/belisards/gunviolence_ptbr](https://github.com/belisards/gunviolence_ptbr)
 
 ## Authors
 
