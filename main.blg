@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: plainnat.bst
+Database file #1: bibliography.bib
+Warning--entry type for "generalFirearmViolenceAmerica2024" isn't style-file defined
+--line 813 of file bibliography.bib
+Warning--empty journal in abbasSocioTechnicalDesignPublic2021
+Warning--empty booktitle in baylorContinuousTrainingProduction2019
+Warning--empty journal in cavalcantiDinamicasViolenciaUrbana2017
+Warning--empty journal in ezeImpactGunViolence2023
+Warning--empty journal in fontanarosaUnrelentingEpidemicFirearm2022
+Warning--empty journal in kalesanHiddenEpidemicFirearm2017
+Warning--empty chapter and pages in koenigOpenSourceInvestigations2020
+Warning--empty journal in lozovatskyImpactFirearmViolence2014
+Warning--empty chapter and pages in myersHowConductDiscovery2020
+Warning--empty booktitle in namisangoWhatWeKnow2019
+Warning--empty journal in nielsenSocialMediaCrowdsourcing2024
+Warning--empty journal in silverExaminingHealthcareEconomic2023
+Warning--empty journal in szwarcwaldMortalidadePorArmas1998
+You've used 61 entries,
+            2773 wiz_defined-function locations,
+            1035 strings with 23909 characters,
+and the built_in function-call counts, 32328 in all, are:
+= -- 2889
+> -- 2204
+< -- 41
++ -- 740
+- -- 678
+* -- 2694
+:= -- 5032
+add.period$ -- 272
+call.type$ -- 61
+change.case$ -- 399
+chr.to.int$ -- 60
+cite$ -- 135
+duplicate$ -- 1330
+empty$ -- 2375
+format.name$ -- 777
+if$ -- 6784
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 53
+newline$ -- 393
+num.names$ -- 251
+pop$ -- 824
+preamble$ -- 1
+purify$ -- 344
+quote$ -- 0
+skip$ -- 1133
+stack$ -- 0
+substring$ -- 838
+swap$ -- 169
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 641
+warning$ -- 13
+while$ -- 248
+width$ -- 0
+write$ -- 934
+(There were 14 warnings)

@@ -1,0 +1,528 @@
+\begin{thebibliography}{61}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abbas et~al.(2021)Abbas, Pitt, and
+  Michael]{abbasSocioTechnicalDesignPublic2021}
+Roba Abbas, Jeremy Pitt, and Katina Michael.
+\newblock Socio-{{Technical Design}} for {{Public Interest Technology}}.
+\newblock 2\penalty0 (2):\penalty0 55--61, 2021.
+\newblock ISSN 2637-6415.
+\newblock \doi{10.1109/TTS.2021.3086260}.
+\newblock URL \url{https://ieeexplore.ieee.org/abstract/document/9459499}.
+
+\bibitem[Alhelbawy et~al.(2016)Alhelbawy, Massimo, and
+  Kruschwitz]{alhelbawyCorpusViolenceActs2016}
+Ayman Alhelbawy, Poesio Massimo, and Udo Kruschwitz.
+\newblock Towards a {Corpus} of {Violence} {Acts} in {Arabic} {Social} {Media}.
+\newblock In \emph{Proceedings of the {Tenth} {International} {Conference} on
+  {Language} {Resources} and {Evaluation} ({LREC}'16)}, pages 1627--1631.
+  European Language Resources Association, 2016.
+\newblock URL \url{https://aclanthology.org/L16-1257}.
+
+\bibitem[Alhelbawy et~al.(2020)Alhelbawy, Lattimer, Kruschwitz, Fox, and
+  Poesio]{alhelbawyNLPPoweredHumanRights2020}
+Ayman Alhelbawy, Mark Lattimer, Udo Kruschwitz, Chris Fox, and Massimo Poesio.
+\newblock An {NLP}-{Powered} {Human} {Rights} {Monitoring} {Platform}.
+\newblock \emph{Expert Systems with Applications}, 153, 2020.
+\newblock ISSN 0957-4174.
+\newblock URL \url{https://doi.org/10.1016/j.eswa.2020.113365}.
+
+\bibitem[Amini et~al.(2022)Amini, Feofanov, Pauletto, Devijver, and
+  Maximov]{aminiSelfTrainingSurvey2022}
+Massih-Reza Amini, Vasilii Feofanov, Loic Pauletto, Emilie Devijver, and Yury
+  Maximov.
+\newblock Self-{Training}: {A} {Survey}, 2022.
+\newblock URL \url{https://doi.org/10.48550/arXiv.2202.12040}.
+
+\bibitem[Arellano et~al.(2022)Arellano, Escalante, Villaseñor~Pineda, Montes~y
+  Gómez, and Sanchez-Vega]{arellanoOverviewDAVINCISIberLEF2022}
+Luis~Joaquín Arellano, Hugo~Jair Escalante, Luis Villaseñor~Pineda, Manuel
+  Montes~y Gómez, and Fernando Sanchez-Vega.
+\newblock Overview of {DA}-{VINCIS} at {IberLEF} 2022: {Detection} of
+  {Aggressive} and {Violent} {Incidents} from {Social} {Media} in {Spanish}.
+\newblock \emph{Procesamiento del Lenguaje Natural}, 69, 2022.
+\newblock ISSN 1135-5948.
+\newblock URL \url{https://doi.org/10.26342/2022-69-18}.
+
+\bibitem[Ball and Price(2019)]{ball_using_2019}
+Patrick Ball and Megan Price.
+\newblock Using statistics to assess lethal violence in civil and inter-state
+  war.
+\newblock \emph{Annual review of statistics and its application}, 6:\penalty0
+  63--84, 2019.
+\newblock URL \url{https://doi.org/10.1146/annurev-statistics-030718-105222}.
+
+\bibitem[Bauer et~al.(2022)Bauer, Longley, Ma, and
+  Wilson]{bauerNLPHumanRights2022}
+Daniel Bauer, Tom Longley, Yueen Ma, and Tony Wilson.
+\newblock {NLP} in {Human} {Rights} {Research}: {Extracting} {Knowledge}
+  {Graphs} about {Police} and {Army} {Units} and {Their} {Commanders}.
+\newblock In \emph{Proceedings of the 16th {Linguistic} {Annotation} {Workshop}
+  ({LAW}-{XVI}) within {LREC2022}}, pages 62--69. European Language Resources
+  Association, 2022.
+\newblock URL \url{https://aclanthology.org/2022.law-1.7}.
+
+\bibitem[Baylor et~al.(2019)Baylor, Haas, Katsiapis, Leong, Liu, Menwald, Miao,
+  Polyzotis, Trott, and Zinkevich]{baylorContinuousTrainingProduction2019}
+Denis Baylor, Kevin Haas, Konstantinos Katsiapis, Sammy Leong, Rose Liu,
+  Clemens Menwald, Hui Miao, Neoklis Polyzotis, Mitchell Trott, and Martin
+  Zinkevich.
+\newblock Continuous {{Training}} for {{Production ML}} in the {{TensorFlow
+  Extended}} ({{TFX}}) {{Platform}}.
+\newblock pages 51--53, 2019.
+\newblock ISBN 978-1-939133-00-7.
+\newblock URL
+  \url{https://www.usenix.org/conference/opml19/presentation/baylor}.
+
+\bibitem[Bloem and Salemi(2021)]{bloem_covid-19_2021}
+Jeffrey~R. Bloem and Colette Salemi.
+\newblock {COVID}-19 and conflict.
+\newblock \emph{World Development}, 140:\penalty0 105294, 2021.
+\newblock ISSN 0305-750X.
+\newblock URL \url{https://doi.org/10.1016/j.worlddev.2020.105294}.
+
+\bibitem[Buenos and Lima(2023)]{buenos_anuario_2023}
+Samira Buenos and Renato~Sérgio Lima.
+\newblock Anuário {Brasileiro} de {Segurança} {Pública} 2023, 2023.
+\newblock URL
+  \url{https://forumseguranca.org.br/anuario-brasileiro-seguranca-publica/}.
+
+\bibitem[Cavalcanti(2018)]{cavalcantiDinamicasViolenciaUrbana2017}
+Ricardo~Caldas Cavalcanti.
+\newblock As dinâmicas da violência urbana na américa latina.
+\newblock 7\penalty0 (2):\penalty0 226--251, 2018.
+\newblock ISSN 2236-6725.
+\newblock \doi{10.5902/2236672531915}.
+\newblock URL \url{https://periodicos.ufsm.br/seculoxxi/article/view/31915}.
+
+\bibitem[Clark and Sikkink(2013)]{clarkInformationEffectsHuman2013}
+Ann~Marie Clark and Kathryn Sikkink.
+\newblock Information {Effects} and {Human} {Rights} {Data}: {Is} the {Good}
+  {News} {About} {Increased} {Human} {Rights} {Information} {Bad} {News} for
+  {Human} {Rights} {Measures}?
+\newblock \emph{Human Rights Quarterly}, 35\penalty0 (3):\penalty0 539--568,
+  2013.
+\newblock ISSN 0275-0392.
+\newblock URL \url{https://www.jstor.org/stable/24518073}.
+
+\bibitem[Devlin et~al.(2018)Devlin, Chang, Lee, and
+  Toutanova]{devlinBERTPretrainingDeep2018}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock {BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for
+  {Language} {Understanding}, 2018.
+\newblock URL \url{https://doi.org/10.48550/arXiv.1810.04805}.
+
+\bibitem[Eze(2023)]{ezeImpactGunViolence2023}
+Anthony~Nnaemeka Eze.
+\newblock Impact of gun violence.
+\newblock 8\penalty0 (1), 2023.
+\newblock ISSN 2397-5776.
+\newblock \doi{10.1136/tsaco-2023-001314}.
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10729124/}.
+
+\bibitem[Farmer et~al.(2023)Farmer, McCosker, Albury, and
+  Aryani]{farmerDataSocialGood2023}
+Jane Farmer, Anthony McCosker, Kath Albury, and Amir Aryani.
+\newblock \emph{Data for {{Social Good}}: {{Non-Profit Sector Data Projects}}}.
+\newblock Springer Nature, 2023.
+\newblock ISBN 978-981-19555-4-9.
+\newblock \doi{10.1007/978-981-19-5554-9}.
+\newblock URL \url{https://library.oapen.org/handle/20.500.12657/61326}.
+
+\bibitem[Fontanarosa and
+  Bibbins-Domingo(2022)]{fontanarosaUnrelentingEpidemicFirearm2022}
+Phil~B. Fontanarosa and Kirsten Bibbins-Domingo.
+\newblock The {{Unrelenting Epidemic}} of {{Firearm Violence}}.
+\newblock 328\penalty0 (12):\penalty0 1201--1203, 2022.
+\newblock ISSN 0098-7484.
+\newblock \doi{10.1001/jama.2022.17293}.
+\newblock URL \url{https://doi.org/10.1001/jama.2022.17293}.
+
+\bibitem[Garbarino et~al.(2002)Garbarino, Bradshaw, and
+  Vorrasi]{garbarinoMitigatingEffectsGun2002}
+James Garbarino, Catherine~P. Bradshaw, and Joseph~A. Vorrasi.
+\newblock Mitigating the {Effects} of {Gun} {Violence} on {Children} and
+  {Youth}.
+\newblock \emph{The Future of Children}, 12\penalty0 (2):\penalty0 72, 2002.
+\newblock ISSN 10548289.
+\newblock URL \url{https://doi.org/10.2307/1602739}.
+
+\bibitem[General(2024)]{generalFirearmViolenceAmerica2024}
+Office of the~Surgeon General.
+\newblock Firearm {{Violence}} in {{America}}, 2024.
+\newblock URL
+  \url{https://www.hhs.gov/surgeongeneral/reports-and-publications/firearm-violence/index.html}.
+
+\bibitem[Gokhale and Fasli(2017)]{gokhaleDeployingCotrainingAlgorithm2017}
+Ragini Gokhale and Maria Fasli.
+\newblock Deploying a co-training algorithm to classify human-rights abuses.
+\newblock In \emph{2017 {International} {Conference} on the {Frontiers} and
+  {Advances} in {Data} {Science} ({FADS})}, pages 108--113, 2017.
+\newblock URL \url{https://doi.org/10.1109/FADS.2017.8253206}.
+
+\bibitem[Goodhart(2016)]{goodhartHumanRightsPolitics2016}
+Michael Goodhart.
+\newblock \emph{Human {Rights}: {Politics} and {Practice}}.
+\newblock Oxford University Press, 2016.
+\newblock ISBN 978-0-19-870876-6.
+\newblock URL \url{https://doi.org/10.1093/hepl/9780198708766.001.0001}.
+
+\bibitem[Greene et~al.(2019)Greene, Park, and
+  Colaresi]{greeneMachineLearningHuman2019}
+Kevin~T. Greene, Baekkwan Park, and Michael Colaresi.
+\newblock Machine {Learning} {Human} {Rights} and {Wrongs}: {How} the
+  {Successes} and {Failures} of {Supervised} {Learning} {Algorithms} {Can}
+  {Inform} the {Debate} {About} {Information} {Effects}.
+\newblock \emph{Political Analysis}, 27\penalty0 (2):\penalty0 223--230, 2019.
+\newblock ISSN 1047-1987, 1476-4989.
+\newblock URL \url{https://doi.org/10.1017/pan.2018.11}.
+
+\bibitem[Hirata and Couto(2022)]{hirataMapaHistoricoDos2022}
+Daniel Hirata and Maria~Isabel Couto.
+\newblock Mapa {Histórico} dos {Grupos} {Armados} no {Rio} de {Janeiro}, 2022.
+\newblock URL
+  \url{https://geni.uff.br/2022/09/13/mapa-historico-dos-grupos-armados-no-rio-de-janeiro/}.
+
+\bibitem[Hirata and Grillo(2019)]{hirataRoubosProtecaoPatrimonial2019}
+Daniel Hirata and Carolina~Christoph Grillo.
+\newblock Roubos, proteção patrimonial e letalidade no {Rio} de {Janeiro},
+  2019.
+\newblock URL
+  \url{https://geni.uff.br/2021/03/26/roubos-protecao-patrimonial-e-letalidade-no-rio-de-janeiro/}.
+
+\bibitem[Hirata et~al.(2023)Hirata, Grillo, Dirk, and
+  Lyra]{hirataChacinasPoliciaisNo2023}
+Daniel Hirata, Carolina~Christoph Grillo, Renata~Coelho Dirk, and Diego~Azevedo
+  Lyra.
+\newblock Chacinas {Policiais} no {Rio} de {Janeiro}: {Estatização} das
+  mortes, mega chacinas policiais e impunidade, 2023.
+\newblock URL
+  \url{https://geni.uff.br/2023/05/05/chacinas-policiais-no-rio-de-janeiro-estatizacao-das-mortes-mega-chacinas-policiais-e-impunidade/}.
+
+\bibitem[Hu et~al.(2022)Hu, Hosseini, Skorupa~Parolin, Osorio, Khan, Brandt,
+  and D’Orazio]{hu_conflibert_2022}
+Yibo Hu, MohammadSaleh Hosseini, Erick Skorupa~Parolin, Javier Osorio, Latifur
+  Khan, Patrick Brandt, and Vito D’Orazio.
+\newblock {ConfliBERT}: {A} {Pre}-trained {Language} {Model} for {Political}
+  {Conflict} and {Violence}.
+\newblock In \emph{Proceedings of the 2022 {Conference} of the {North}
+  {American} {Chapter} of the {Association} for {Computational} {Linguistics}:
+  {Human} {Language} {Technologies}}, pages 5469--5482. Association for
+  Computational Linguistics, 2022.
+\newblock URL \url{https://doi.org/10.18653/v1/2022.naacl-main.400}.
+
+\bibitem[International(2011)]{amnesty_international_amnesty_2011}
+Amnesty International.
+\newblock The amnesty international timeline, 2011.
+\newblock URL
+  \url{http://static.amnesty.org/ai50/ai50-amnesty-international-timeline.pdf}.
+
+\bibitem[Jabine and Claude(1992)]{jabine_human_1992}
+Thomas~B. Jabine and Richard~P. Claude, editors.
+\newblock \emph{Human {Rights} and {Statistics}: {Getting} the {Record}
+  {Straight}}.
+\newblock University of Pennsylvania Press, 1992.
+\newblock ISBN 978-1-5128-0286-3.
+
+\bibitem[Kalesan et~al.(2017)Kalesan, Adhikarla, Pressley, Fagan, Xuan, Siegel,
+  and Galea]{kalesanHiddenEpidemicFirearm2017}
+Bindu Kalesan, Chandana Adhikarla, Joyce~C. Pressley, Jeffrey~A. Fagan, Ziming
+  Xuan, Michael~B. Siegel, and Sandro Galea.
+\newblock The {{Hidden Epidemic}} of {{Firearm Injury}}: {{Increasing Firearm
+  Injury Rates During}} 2001–2013.
+\newblock 185\penalty0 (7):\penalty0 546--553, 2017.
+\newblock ISSN 0002-9262.
+\newblock \doi{10.1093/aje/kww147}.
+\newblock URL \url{https://doi.org/10.1093/aje/kww147}.
+
+\bibitem[Kirk et~al.(2022)Kirk, Vidgen, Rottger, Thrush, and
+  Hale]{kirk-etal-2022-hatemoji}
+Hannah Kirk, Bertie Vidgen, Paul Rottger, Tristan Thrush, and Scott Hale.
+\newblock {H}atemoji: A test suite and adversarially-generated dataset for
+  benchmarking and detecting emoji-based hate.
+\newblock In Marine Carpuat, Marie-Catherine de~Marneffe, and Ivan~Vladimir
+  Meza~Ruiz, editors, \emph{Proceedings of the 2022 Conference of the North
+  American Chapter of the Association for Computational Linguistics: Human
+  Language Technologies}, pages 1352--1368, Seattle, United States, July 2022.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2022.naacl-main.97}.
+\newblock URL \url{https://aclanthology.org/2022.naacl-main.97}.
+
+\bibitem[Koenig and Freeman(2020)]{koenigOpenSourceInvestigations2020}
+Alexa Koenig and Lindsay Freeman.
+\newblock \emph{Open {{Source Investigations}} for {{Legal Accountability}}}.
+\newblock Oxford University Press, 2020.
+\newblock ISBN 978-0-19-883606-3.
+
+\bibitem[Kolieb and Poblet(2018)]{koliebRespondingHumanRights2018}
+Jonathan Kolieb and Marta Poblet.
+\newblock Responding to {Human} {Rights} {Abuses} in the {Digital} {Era}: {New}
+  {Tools}, {Old} {Challenges}.
+\newblock \emph{Stanford Journal of International Law}, 52\penalty0 (2), 2018.
+\newblock URL \url{https://papers.ssrn.com/abstract=3859873}.
+
+\bibitem[Lazer et~al.(2020)Lazer, Pentland, Watts, Aral, Athey, Contractor,
+  Freelon, Gonzalez-Bailon, King, Margetts, Nelson, Salganik, Strohmaier,
+  Vespignani, and Wagner]{lazerComputationalSocialScience2020}
+David M.~J. Lazer, Alex Pentland, Duncan~J. Watts, Sinan Aral, Susan Athey,
+  Noshir Contractor, Deen Freelon, Sandra Gonzalez-Bailon, Gary King, Helen
+  Margetts, Alondra Nelson, Matthew~J. Salganik, Markus Strohmaier, Alessandro
+  Vespignani, and Claudia Wagner.
+\newblock Computational social science: {Obstacles} and opportunities.
+\newblock \emph{Science}, 369\penalty0 (6507):\penalty0 1060--1062, 2020.
+\newblock URL \url{https://doi.org/10.1126/science.aaz8170}.
+
+\bibitem[Lemgruber(2022)]{lemgruberTirosNoFuturo2022}
+Julita Lemgruber.
+\newblock Tiros no futuro: {Impactos} da guerra às drogas na rede municipal de
+  educação do {Rio} de {Janeiro}, 2022.
+\newblock URL
+  \url{https://cesecseguranca.com.br/textodownload/tiros-no-futuro-impactos-da-guerra-as-drogas-na-rede-municipal-de-educacao-do-rio-de-janeiro/}.
+
+\bibitem[Lozovatsky and Saha(2014)]{lozovatskyImpactFirearmViolence2014}
+Michael Lozovatsky and Subrata Saha.
+\newblock The {{Impact}} of {{Firearm Violence}} on the {{Healthcare System}}
+  of the {{United States}}.
+\newblock 5\penalty0 (1), 2014.
+\newblock ISSN 2151-805X, 2151-8068.
+\newblock \doi{10.1615/EthicsBiologyEngMed.2014012035}.
+\newblock URL
+  \url{https://www.dl.begellhouse.com/journals/6ed509641f7324e6,59bf2d6a63e1cf43,590e9a6534ab5114.html}.
+
+\bibitem[McClintock(2010)]{mcclintock_standard_2010}
+Michael McClintock.
+\newblock The {Standard} {Approach} to {Human} {Rights} {Research}.
+\newblock In \emph{Human {Rights}: {From} {Practice} to {Policy}}. Gerald R.
+  Ford School of Public Policy University of Michigan, 2010.
+
+\bibitem[Miller et~al.(2013)Miller, Shrestha, Derby, Olive, Umapathy, Li, and
+  Zhao]{millerDiggingHumanRights2013}
+Ben Miller, Ayush Shrestha, Jason Derby, Jennifer Olive, Karthikeyan Umapathy,
+  Fuxin Li, and Yanjun Zhao.
+\newblock Digging into human rights violations: {Data} modelling and collective
+  memory.
+\newblock In \emph{2013 {IEEE} {International} {Conference} on {Big} {Data}},
+  pages 37--45, 2013.
+\newblock URL \url{https://doi.org/10.1109/BigData.2013.6691668}.
+
+\bibitem[Mooney et~al.(2022)Mooney, Pundik, Raymond, and
+  Simon]{mooneySocialMediaEvidence2021}
+Olivia Mooney, Kate Pundik, Nathaniel Raymond, and David Simon.
+\newblock Social {{Media Evidence}} of {{Alleged Gross Human Rights Abuses}}:
+  {{Improving Preservation}} and {{Access Through Policy Reform}}, 2022.
+\newblock URL
+  \url{https://gsp.yale.edu/social-media-evidence-alleged-gross-human-rights-abuses-improving-preservation-and-access-through}.
+
+\bibitem[Murdie and Watson(2021)]{murdie_quantitative_2021}
+Amanda~M. Murdie and K.~Anne Watson.
+\newblock Quantitative {Human} {Rights}.
+\newblock \emph{Oxford Research Encyclopedia of International Studies}, 2021.
+\newblock URL \url{https://doi.org/10.1093/acrefore/9780190846626.013.603}.
+
+\bibitem[Myers(2020)]{myersHowConductDiscovery2020}
+Paul Myers.
+\newblock \emph{How to {{Conduct Discovery Using Open Source Methods}}}.
+\newblock Oxford University Press, 2020.
+\newblock ISBN 978-0-19-883606-3.
+
+\bibitem[Namisango et~al.(2019)Namisango, Kang, and
+  Rehman]{namisangoWhatWeKnow2019}
+Fatuma Namisango, Kyeong Kang, and Junaid Rehman.
+\newblock What {{Do We Know}} about {{Social Media}} in {{Nonprofits}}? {{A
+  Review}}.
+\newblock 2019.
+
+\bibitem[Nations(2013)]{unitednationsHumanRightsIndicators2013}
+United Nations.
+\newblock Human {Rights} {Indicators}: {A} {Guide} to {Measurement} and
+  {Implementation}, 2013.
+\newblock URL \url{https://doi.org/10.18356/58576336-en}.
+
+\bibitem[Nemkova et~al.(2023)Nemkova, Ubani, Polat, Kim, and
+  Nielsen]{nemkovaDetectingHumanRights2023}
+Poli Nemkova, Solomon Ubani, Suleyman~Olcay Polat, Nayeon Kim, and Rodney~D.
+  Nielsen.
+\newblock Detecting {Human} {Rights} {Violations} on {Social} {Media} during
+  {Russia}-{Ukraine} {War}, 2023.
+\newblock URL \url{https://doi.org/10.48550/arXiv.2306.05370}.
+
+\bibitem[Nielsen et~al.(2024)Nielsen, Landwehr, Nicolaï, Patil, and
+  Raju]{nielsenSocialMediaCrowdsourcing2024}
+Anne~B. Nielsen, Dario Landwehr, Juliette Nicolaï, Tejal Patil, and Emmanuel
+  Raju.
+\newblock Social media and crowdsourcing in disaster risk management:
+  {{Trends}}, gaps, and insights from the current state of research.
+\newblock 15\penalty0 (2):\penalty0 104--127, 2024.
+\newblock ISSN 1944-4079, 1944-4079.
+\newblock \doi{10.1002/rhc3.12297}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/10.1002/rhc3.12297}.
+
+\bibitem[of~Disease 2016 Injury~Collaborators(2018)]{globalBurden2018}
+The Global~Burden of~Disease 2016 Injury~Collaborators.
+\newblock Global {Mortality} {From} {Firearms}, 1990-2016.
+\newblock \emph{JAMA}, 320\penalty0 (8):\penalty0 792, 2018.
+\newblock ISSN 0098-7484.
+\newblock URL \url{https://doi.org/10.1001/jama.2018.10060}.
+
+\bibitem[Ou et~al.(2022)Ou, Ren, Duan, Tang, Zhu, Feng, Zhang, Liang, Su,
+  Zhang, Cui, Chen, Zhou, Mao, and Wang]{ouGlobalBurdenTrends2022}
+Zejin Ou, Yixian Ren, Danping Duan, Shihao Tang, Shaofang Zhu, Kexin Feng,
+  Jinwei Zhang, Jiabin Liang, Yiwei Su, Yuxia Zhang, Jiaxin Cui, Yuquan Chen,
+  Xueqiong Zhou, Chen Mao, and Zhi Wang.
+\newblock Global burden and trends of firearm violence in 204
+  countries/territories from 1990 to 2019.
+\newblock \emph{Frontiers in Public Health}, 10, 2022.
+\newblock ISSN 2296-2565.
+\newblock \doi{10.3389/fpubh.2022.966507}.
+\newblock URL
+  \url{https://www.frontiersin.org/articles/10.3389/fpubh.2022.966507}.
+
+\bibitem[Pavlick and Callison-Burch(2016)]{pavlickGunViolenceDatabase2016}
+Ellie Pavlick and Chris Callison-Burch.
+\newblock The gun violence database.
+\newblock In \emph{Presented at the {Data} {For} {Good} {Exchange} 2016}, 2016.
+\newblock URL \url{https://doi.org/10.48550/arXiv.1610.01670}.
+
+\bibitem[Pilankar et~al.(2022)Pilankar, Haque, Hasanuzzaman, Stynes, and
+  Pathak]{pilankarDetectingViolationHuman2022}
+Yash Pilankar, Rejwanul Haque, Mohammed Hasanuzzaman, Paul Stynes, and Pramod
+  Pathak.
+\newblock Detecting {Violation} of {Human} {Rights} via {Social} {Media}.
+\newblock In \emph{Proceedings of the {First} {Computing} {Social}
+  {Responsibility} {Workshop} within the 13th {Language} {Resources} and
+  {Evaluation} {Conference}}, pages 40--45. European Language Resources
+  Association, 2022.
+\newblock URL \url{https://aclanthology.org/2022.csrnlp-1.6}.
+
+\bibitem[Piskorski et~al.(2020)Piskorski, Haneczok, and
+  Jacquet]{piskorski_new_2020}
+Jakub Piskorski, Jacek Haneczok, and Guillaume Jacquet.
+\newblock New {Benchmark} {Corpus} and {Models} for {Fine}-grained {Event}
+  {Classification}: {To} {BERT} or not to {BERT}?
+\newblock In \emph{Proceedings of the 28th {International} {Conference} on
+  {Computational} {Linguistics}}, pages 6663--6678. International Committee on
+  Computational Linguistics, 2020.
+\newblock URL \url{https://doi.org/10.18653/v1/2020.coling-main.584}.
+
+\bibitem[Price and
+  Ball(2015{\natexlab{a}})]{priceLimitsObservationUnderstanding2015}
+Megan Price and Patrick Ball.
+\newblock The {Limits} of {Observation} for {Understanding} {Mass} {Violence}.
+\newblock \emph{Canadian Journal of Law and Society / La Revue Canadienne Droit
+  et Société}, 30\penalty0 (2):\penalty0 237--257, 2015{\natexlab{a}}.
+\newblock ISSN 0829-3201, 1911-0227.
+\newblock URL \url{https://doi.org/10.1017/cls.2015.24}.
+
+\bibitem[Price and Ball(2015{\natexlab{b}})]{price_selection_2015}
+Megan Price and Patrick Ball.
+\newblock Selection bias and the statistical patterns of mortality in conflict.
+\newblock \emph{Statistical Journal of the IAOS}, 31\penalty0 (2):\penalty0
+  263--272, 2015{\natexlab{b}}.
+
+\bibitem[Raleigh et~al.(2010)Raleigh, Linke, Hegre, and
+  Karlsen]{raleighIntroducingACLEDArmed2010}
+Clionadh Raleigh, rew Linke, Håvard Hegre, and Joakim Karlsen.
+\newblock Introducing {ACLED}: {An} armed conflict location and event dataset.
+\newblock \emph{Journal of peace research}, 47\penalty0 (5):\penalty0 651--660,
+  2010.
+\newblock URL \url{https://doi.org/10.1177/0022343310378914}.
+
+\bibitem[Ran et~al.(2023)Ran, Lu, Tetreault, Cahill, and
+  Jaimes]{ranNewTaskDataset2023}
+Shihao Ran, Di~Lu, Joel Tetreault, Aoife Cahill, and Alejandro Jaimes.
+\newblock A {New} {Task} and {Dataset} on {Detecting} {Attacks} on {Human}
+  {Rights} {Defenders}, 2023.
+\newblock URL \url{https://doi.org/10.48550/arXiv.2306.17695}.
+
+\bibitem[Rossman and Rallis(2017)]{rossmanIntroductionQualitativeResearch2017}
+Gretchen~B. Rossman and Sharon~F. Rallis.
+\newblock \emph{An {Introduction} to {Qualitative} {Research}: {Learning} in
+  the {Field}}.
+\newblock SAGE Publications, 2017.
+\newblock ISBN 978-1-07-180269-4.
+\newblock URL \url{https://doi.org/10.4135/9781071802694}.
+
+\bibitem[Shabani and Sokhn(2018)]{shabaniHybridMachineCrowdApproach2018}
+Shaban Shabani and Maria Sokhn.
+\newblock Hybrid {{Machine-Crowd Approach}} for {{Fake News Detection}}.
+\newblock In \emph{2018 {{IEEE}} 4th {{International Conference}} on
+  {{Collaboration}} and {{Internet Computing}} ({{CIC}})}, pages 299--306,
+  2018.
+\newblock \doi{10.1109/CIC.2018.00048}.
+\newblock URL \url{https://ieeexplore.ieee.org/abstract/document/8537846}.
+
+\bibitem[Silva et~al.(2021)Silva, Ribeiro, Frossard, Souza, Schenker, and
+  Minayo]{silvaNoMeioFogo2021}
+Mayalu~Matos Silva, Fernanda Mendes~Lages Ribeiro, Vera~Cecília Frossard,
+  Rosane Marques~de Souza, Miriam Schenker, and Maria Cecília de~Souza Minayo.
+\newblock “{No} meio do fogo cruzado”: reflexões sobre os impactos da
+  violência armada na {Atenção} {Primária} em {Saúde} no município do
+  {Rio} de {Janeiro}.
+\newblock \emph{Ciência \& Saúde Coletiva}, 26:\penalty0 2109--2118, 2021.
+\newblock ISSN 1413-8123, 1678-4561.
+\newblock URL \url{https://doi.org/10.1590/1413-81232021266.00632021}.
+
+\bibitem[Silver et~al.(2023)Silver, Ramos, Stamm, Gladden, Martin, and
+  Mulcahey]{silverExaminingHealthcareEconomic2023}
+Julia~H. Silver, Tolulope~A. Ramos, Michaela~A. Stamm, Paul~B. Gladden,
+  Murphy~P. Martin, and Mary~K. Mulcahey.
+\newblock Examining the {{Healthcare}} and {{Economic Burden}} of {{Gun
+  Violence}} in a {{Major US Metropolitan City}}.
+\newblock 7\penalty0 (8), 2023.
+\newblock ISSN 2474-7661.
+\newblock \doi{10.5435/JAAOSGlobal-D-22-00158}.
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10412425/}.
+
+\bibitem[Souza et~al.(2020)Souza, Nogueira, and
+  Lotufo]{souzaBERTimbauPretrainedBERT2020}
+Fábio Souza, Rodrigo Nogueira, and Roberto Lotufo.
+\newblock {BERTimbau}: {Pretrained} {BERT} {Models} for {Brazilian}
+  {Portuguese}.
+\newblock In Ricardo Cerri and Ronaldo~C. Prati, editors, \emph{Intelligent
+  {Systems}}, Lecture {Notes} in {Computer} {Science}, pages 403--417. Springer
+  International Publishing, 2020.
+\newblock ISBN 978-3-030-61377-8.
+\newblock URL \url{https://doi.org/10.1007/978-3-030-61377-8_28}.
+
+\bibitem[Szwarcwald and Castilho(1998)]{szwarcwaldMortalidadePorArmas1998}
+Célia~Landman Szwarcwald and Euclides~Ayres Castilho.
+\newblock Mortalidade por armas de fogo no estado do {{Rio}} de {{Janeiro}},
+  {{Brasil}}: Uma análise espacial.
+\newblock 1998.
+\newblock URL \url{https://iris.paho.org/handle/10665.2/7802}.
+
+\bibitem[Ta et~al.(2022)Ta, Rahman, Najjar, and
+  Gelbukh]{taGANBERTAdversarialLearning2022}
+Hoang~Thang Ta, Abu Bakar~Siddiqur Rahman, Lotfollah Najjar, and Alexander
+  Gelbukh.
+\newblock {GAN}-{BERT}: {Adversarial} {Learning} for {Detection} of
+  {Aggressive} and {Violent} {Incidents} from {Social} {Media}.
+\newblock In \emph{Proceedings of the {Iberian} {Languages} {Evaluation}
+  {Forum} ({IberLEF} 2022), {CEUR} {Workshop} {Proceedings}}, 2022.
+\newblock URL \url{https://ceur-ws.org/Vol-3202/davincis-paper7.pdf}.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswaniAttentionAllYou2017}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, Łukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In I.~Guyon, U.~Von Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, \emph{Advances in neural
+  information processing systems}, volume~30, 2017.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf}.
+
+\bibitem[Wagner~Filho et~al.(2018)Wagner~Filho, Wilkens, Idiart, and
+  Villavicencio]{wagnerfilhoBrWaCCorpusNew2018}
+Jorge~A. Wagner~Filho, Rodrigo Wilkens, Marco Idiart, and Aline Villavicencio.
+\newblock The {brWaC} corpus: a new open resource for {Brazilian} {Portuguese}.
+\newblock In \emph{Proceedings of the eleventh international conference on
+  language resources and evaluation ({LREC} 2018)}. European Language Resources
+  Association, 2018.
+\newblock URL \url{https://aclanthology.org/L18-1686}.
+
+\end{thebibliography}
