@@ -2,14 +2,6 @@
 
 This repository contains the LaTeX source code and research materials for the paper "Into the crossfire: evaluating the use of a language model to crowdsource gun violence reports" by Adriano Belisario, Scott A. Hale, and Luc Rocher from the Oxford Internet Institute, University of Oxford.
 
-## Key Findings
-
-🎯 **High Model Performance**: Our fine-tuned BERTimbau model achieved 87% recall in detecting gun violence reports from Portuguese social media texts, significantly outperforming baseline methods
-
-🚀 **Real-world Impact**: Live intervention with Brazilian human rights analysts showed 9 additional daily interactions with gun violence reports, improving monitoring efficiency and expanding search capabilities
-
-🤝 **Human-AI Collaboration**: Analysts used our prototype alongside existing tools rather than replacing them, demonstrating that AI augmentation (not automation) is the most effective approach for human rights monitoring
-
 ## Compilation
 
 To compile the paper:
