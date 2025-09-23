@@ -1,0 +1,79 @@
+---
+title: "Into the Crossfire (tentative draft)"
+subtitle: "Evaluating the Use of a Language Model to Crowdsource Gun Violence Reports"
+author: "Adriano Belisario, Scott A. Hale, Luc Rocher<br>Oxford Internet Institute, University of Oxford"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    chalkboard: true
+    preview-links: auto
+    footer: "CSCW 2025"
+    transition: slide
+---
+
+## The challenge
+
+Online data is a promising resource for human rights monitoring (REF), but organizations struggle with:
+
+**Scale mismatch** - Massive data vs. human capacity
+
+**Real-time needs** - Violence requires immediate response
+
+**Limited resources** - Small teams, big problems
+
+---
+
+
+## Key contributions
+
+**Real-world evaluation** with measurable impact
+
+
+
+---
+
+## Fogo Cruzado
+
+- Monitors events of gun violence in Brazil
+
+- Small team of analysts monitoring 24/7
+
+- Manual social networks monitoring 
+
+[https://fogocruzado.org.br](https://fogocruzado.org.br)
+
+---
+
+## Research Question
+
+ADD 
+
+---
+
+## Methodology
+
+We trained a BERT model with Twitter data, using the past interactions of 
+
+Experiment
+
+---
+
+## Key Findings
+
+## Experiment
+Interviews
+
+---
+
+## Future Directions
+
+Post-APIs: challenges for human rights monitoring
+
+
+---
+
+### Thank you!
+
+**Contact**: adriano@belisario.website
+

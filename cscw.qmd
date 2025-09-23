@@ -1,0 +1,112 @@
+---
+title: "Into the Crossfire (tentative draft)"
+subtitle: "Evaluating the Use of a Language Model to Crowdsource Gun Violence Reports"
+author: "Adriano Belisario, Scott A. Hale, Luc Rocher<br><b>Oxford Internet Institute, University of Oxford</b>"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    chalkboard: true
+    preview-links: auto
+    footer: "ACM/CSCW 2025"
+    transition: slide
+---
+
+## Introduction
+
+The research implemented and evaluated the use of a language model by human rights analysts to crowdsource gun violence reports using online data. 
+
+Our main contributions are the following:
+
+Real-world evaluation with measurable impact
+
+---
+
+## The needle in the haystack
+
+Online data is a promising resource for human rights monitoring (REF), but organizations struggle with:
+
+**Scale mismatch** - Massive data vs. limited human resources
+
+**Real-time needs** - Violence requires immediate response
+
+Discovering critical online evidence often seems like searching for a needle in the haystack.
+
+---
+
+## Fogo Cruzado
+
+Fogo Cruzado is a Brazilian organization that represents these challenges.
+
+- Monitors events of gun violence in Brazil
+
+- Small team of analysts monitoring 24/7
+
+- Manual social networks monitoring 
+
+---
+
+## Tracking tweets with Tweetdeck...
+
+Column-based interface with restricted location filters.
+
+![](figs/tweetdeck.jpeg)
+
+[https://fogocruzado.org.br](https://fogocruzado.org.br)
+
+---
+
+## Research question
+
+**RQ1** - Can Transformer-based language models accurately identify gun violence reports in Brazilian Portuguese social media texts?
+
+**RQ2** - What are the advantages and challenges of adopting a language model for real-time monitoring compared to manually reviewing social media texts?
+
+---
+
+## Methodology (RQ1)
+
+We trained a BERT model with Twitter data using past interactions from the organization
+
+## Methodology (RQ2)
+
+Experiment
+
+## Tracking with tweets with our interface...
+
+We used Airtable to implement the protoype. The interface shows a dedicated tab for tweets classified as gun violence reports.
+
+![](figs/airtable.jpeg)
+
+---
+
+## Key Findings (RQ1)
+
+AI models can filter out less relevant social media content and provides a higher signal-to-noise input for analysts. 
+
+Instead of using restrictive geolocation filters that limit the number of messages when collecting data, our prototype allows analysts to expand their search scope
+
+Reviewing messages pre-classified by the language model reduces the cognitive effort required to identify events.
+
+## Key Findings (RQ2)
+
+Interviews
+
+## Key Findings (RQ2)
+
+Updating new tweets promptly is critical for monitoring ongoing conflicts
+
+Search keywords need to be dynamically set.
+
+Further information beyond texts can help analysts interact with users
+
+## Conclusion
+
+Post-APIs: challenges for human rights monitoring
+
+---
+
+### Thank you!
+
+[adriano@belisario.website](adriano@belisario.website)
+
