@@ -140,48 +140,58 @@ Adriano Belisario, Scott A. Hale, Luc Rocher<br><b>Oxford Internet Institute, Un
 
 </section>
 <section>
-<section id="the-challenge" class="title-slide slide level1 fit-text center">
+<section id="the-challenge" class="title-slide slide level1 center">
 <h1>The challenge</h1>
 
 </section>
 <section class="slide level2">
 
-<p>Using AI with crowdsourced social media data is a promising resource for human rights monitoring [Alhelbawy et al.&nbsp;(2020)], but…</p>
+<p>Using AI with crowdsourced social media data is a promising resource for human rights monitoring (Alhelbawy et al, 2020), but…</p>
 <ul>
 <li class="fragment"><p>Keyword-based search leads to high proportion of unrelated text.</p></li>
 <li class="fragment"><p>Organizations have limited resources to deal with massive data.</p></li>
+</ul>
+</section>
+<section id="background" class="slide level2">
+<h2>Background</h2>
+<p>Previous studies had explored machine learning models for human rights monitoring (Alhelbawy et al., 2020; Pilankar et al., 2022; Ta et al., 2022).</p>
+<p>However, there was a gap in the literature on applications on…</p>
+<ul>
+<li class="fragment"><p>Applications in Portuguese.</p></li>
+<li class="fragment"><p>Evaluations of adopting these models in a real-world setting.</p></li>
 </ul>
 </section>
 <section id="our-work" class="slide level2">
 <h2>Our work</h2>
 <p>We deployed an <strong>open source language model</strong> to assist crowdsourcing gun violence events with social media.</p>
 <p>Partnering with a Brazilian organization allowed us to <strong>systematicaly evaluate</strong> its application in a real-world setting in 2023.</p>
-</section>
-<section id="background" class="slide level2">
-<h2>Background</h2>
-<p>Previous studies had explored machine learning models for human rights monitoring [Alhelbawy et al.&nbsp;(2020); Pilankar et al.&nbsp;(2022); Ta et al.&nbsp;(2022)].</p>
-<p>However, there was a gap in the literature on applications in Portuguese and the evaluation of these models in a real-world setting and applications.</p>
 </section></section>
 <section>
-<section id="fogo-cruzado" class="title-slide slide level1 center">
-<h1>Fogo Cruzado</h1>
-<p>Fogo Cruzado (<a href="fogocruzado.org.br">https://fogocruzado.org.br</a>) monitors events of gun violence in Brazil.</p>
-<p>Small team of analysts track social media posts 24/7.</p>
-<p>They’ve been interacting with users reporting gun violence on Twitter/X for years.</p>
-</section>
-<section id="keyword-based-search-on-tweetdeck" class="slide level2">
-<h2>Keyword-based search on Tweetdeck</h2>
-<p><img data-src="../figs/tweetdeck.jpeg" style="width:100.0%"> :::: :::</p>
-</section></section>
-<section>
-<section id="questions-and-methods" class="title-slide slide level1 center">
-<h1>Questions and methods</h1>
-<p><strong>RQ1</strong> - Can Transformer-based language models accurately identify gun violence reports in Brazilian Portuguese social media texts?</p>
-<p><strong>RQ2</strong> - What are the advantages and challenges of adopting a language model for real-time monitoring compared to manually reviewing social media texts?</p>
+<section id="our-partner" class="title-slide slide level1 center">
+<h1>Our partner</h1>
+
 </section>
 <section class="slide level2">
 
-<p><strong>RQ1:</strong> Models trained on past analysts’ interactions with tweets reporting gun violence.</p>
+
+<img data-src="../figs/fogocruzado.png" class="center r-stretch"><p>The organization monitors events of gun violence in Brazil.</p>
+<p>Small team of analysts track social media posts 24/7.</p>
+<p>They’ve been interacting with users reporting gun violence on Twitter/X for years.</p>
+</section>
+<section class="slide level2">
+
+<p>Keyword-based search with geographical filters on Tweetdeck.</p>
+
+<img data-src="../figs/tweetdeck.jpeg" class="r-stretch"></section></section>
+<section>
+<section id="questions" class="title-slide slide level1 center">
+<h1>Questions</h1>
+<p><strong>RQ1</strong> - Can Transformer-based language models accurately identify gun violence reports in Brazilian Portuguese social media texts?</p>
+<p><strong>RQ2</strong> - What are the advantages and challenges of adopting a language model for real-time monitoring compared to manually reviewing social media texts?</p>
+</section>
+<section id="methods" class="slide level2">
+<h2>Methods</h2>
+<p><strong>RQ1:</strong> BERT model trained on past analysts’ interactions with tweets reporting gun violence.</p>
 <p><strong>RQ2:</strong> Surveys, interviews and metrics analyzed before and after the adoption of our prototype</p>
 </section></section>
 <section>
@@ -193,29 +203,39 @@ Adriano Belisario, Scott A. Hale, Luc Rocher<br><b>Oxford Internet Institute, Un
 <h2>Small and open source</h2>
 <p>A BERT-based model in Portuguese achieved good performance. Inference can be done in CPUs.</p>
 
-<img data-src="figs/test_interactions_pb.png" class="r-stretch"></section>
+<img data-src="../figs/test_interactions_pb.png" class="r-stretch"></section>
 <section id="our-interface" class="slide level2">
 <h2>Our interface</h2>
 
 <img data-src="../figs/airtable.png" class="r-stretch"></section>
-<section id="better-signal-to-noise-ratio" class="slide level2">
-<h2>Better signal-to-noise ratio</h2>
-<p>Interview with an analyst:</p>
-<p>“[Now] I do not have to go hunting for tweets.</p>
-<p>Sometimes, I missed them [gun violence reports] because there were too many [unrelated] messages. During the BBB [Big Brother Brasil, an annual TV show extremely popular on Twitter], it was chaotic [. . . ]. It was literally a treasure hunt”</p>
+<section id="signal-to-noise-ratio" class="slide level2">
+<h2>Signal-to-noise ratio</h2>
+<p>The prototype effectively filtered out less relevant social media content.</p>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Interview with an analyst</strong></p>
+</div>
+<div class="callout-content">
+<p>“<em>[Now] I do not have to go hunting for tweets</em>.</p>
+<p><em>Sometimes, I missed them [gun violence reports] because there were too many [unrelated] messages. During the BBB [Big Brother Brasil, an annual TV show extremely popular on Twitter], it was chaotic [. . . ]. It was literally a treasure hunt</em>”</p>
+</div>
+</div>
+</div>
 </section>
-<section id="fewer-filters-greater-search-scope" class="slide level2">
-<h2>Fewer filters, greater search scope</h2>
+<section id="fewer-filters-greater-scope" class="slide level2">
+<h2>Fewer filters, greater scope</h2>
 <p>Instead of using restrictive geolocation filters that limit the number of messages when collecting data, our prototype allows analysts to expand their search scope.</p>
+<p>We estimated that analysts using the model had nine additional daily interactions with gun violence reports.</p>
 </section>
 <section id="limitations" class="slide level2">
 <h2>Limitations</h2>
 <p>Updating new tweets promptly is critical for monitoring ongoing conflicts.</p>
 <p>Search keywords need to be dynamically set.</p>
 <p>Images help analysts interact with users.</p>
-</section>
-<section class="slide level2">
-
 </section></section>
 <section>
 <section id="two-years-later-final-words" class="title-slide slide level1 center">
@@ -224,7 +244,7 @@ Adriano Belisario, Scott A. Hale, Luc Rocher<br><b>Oxford Internet Institute, Un
 </section>
 <section class="slide level2">
 
-<p>LLMs might be powerful, but small and open source models are still useful.</p>
+<p>Major LLMs might be powerful, but small and open source models are still useful.</p>
 <p>Human rights monitoring: Academics 🤝 NGOs</p>
 <p>The closure of social media APIs as a major obstacle for low-resourced organizations.</p>
 </section>
@@ -234,7 +254,9 @@ Adriano Belisario, Scott A. Hale, Luc Rocher<br><b>Oxford Internet Institute, Un
 <section>
 <section id="references" class="title-slide slide level1 center">
 <h1>References</h1>
-
+<p>Ayman Alhelbawy, Mark Lattimer, Udo Kruschwitz, Chris Fox, and Massimo Poesio. <strong>An NLP-Powered Human Rights Monitoring Platform</strong>. Expert Systems with Applications, 153, 2020. ISSN 0957-4174. <a href="https://doi.org/10.1016/j.eswa.2020.113365">https://doi.org/10.1016/j.eswa.2020.113365</a>.</p>
+<p>Yash Pilankar, Rejwanul Haque, Mohammed Hasanuzzaman, Paul Stynes, and Pramod Pathak. <strong>Detecting Violation of Human Rights via Social Media</strong>. In Proceedings of the First Computing Social Responsibility Workshop within the 13th Language Resources and Evaluation Conference, pages 40–45. European Language Resources Association, 2022. <a href="https://aclanthology.org/2022.csrnlp-1.6">https://aclanthology.org/2022.csrnlp-1.6</a>.</p>
+<p>Hoang Thang Ta, Abu Bakar Siddiqur Rahman, Lotfollah Najjar, and Alexander Gelbukh. GAN-BERT: Adversarial Learning for Detection of Aggressive and Violent Incidents from Social Media. In Proceedings of the Iberian Languages Evaluation Forum (IberLEF 2022), CEUR Workshop Proceedings, 2022. <a href="https://ceur-ws.org/Vol-3202/davincis-paper7.pdf">https://ceur-ws.org/Vol-3202/davincis-paper7.pdf</a>.</p>
 </section>
 <section class="slide level2">
 
@@ -243,6 +265,7 @@ Adriano Belisario, Scott A. Hale, Luc Rocher<br><b>Oxford Internet Institute, Un
 <h1></h1>
 <p>Thank you!</p>
 <p>📧 <a href="adriano@belisario.website">adriano@belisario.website</a></p>
+<p>👨🏻‍🏫 <a href="https://belisario.website/crossfire_paper/">https://belisario.website/crossfire_paper/</a></p>
 <p>🌐 <a href="belisario.website">belisario.website</a></p>
 
 </section>
