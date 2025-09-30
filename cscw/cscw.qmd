@@ -1,12 +1,12 @@
 ---
 title: "Into the Crossfire"
 subtitle: "Evaluating the Use of a Language Model to Crowdsource Gun Violence Reports"
-author: "Adriano Belisario, Scott A. Hale, Luc Rocher<br><b>Oxford Internet Institute, University of Oxford</b>"
+author: "Adriano Belisario, Scott A. Hale, Luc Rocher"
 format:
   revealjs:
     theme: simple
     slide-number: true
-    # chalkboard: true
+    logo: ../figs/oii.png
     preview-links: auto
     # footer: "ACM/CSCW 2025"
     transition: slide
@@ -65,11 +65,9 @@ Keyword-based search with geographical filters on Tweetdeck.
 # Questions
 
 ::: {.incremental}
-
 **RQ1** - Can Transformer-based language models accurately identify gun violence reports in Brazilian Portuguese social media texts?
 
 **RQ2** - What are the advantages and challenges of adopting a language model for real-time monitoring compared to manually reviewing social media texts?
-
 :::
 
 ## Methods
@@ -117,17 +115,17 @@ We estimated that analysts using the model engaged in nine additional daily inte
 
 ## Limitations
 
+The interviews and surveys allowed us to identify three major shortcomings:
+
 ::: {.incremental}
-Promptly updating new tweets is critical.
+- **The delay between each update**: promptly updating new tweets is critical.
 
-Search keywords need to be dynamically set.
+- **Static keywords used for search**: terms need to be dynamically set to monitore live conflicts.
 
-Profile images also help analysts to decide if they will interact with users.
+- **Use of text-only features**: profile images also help analysts to decide if they will interact with users.
 :::
 
 # Two years later, final words
-
----
 
 ::: {.incremental}
 
@@ -138,17 +136,14 @@ Human rights monitoring: Academics 🤝 NGOs
 The closure of social media APIs poses a major obstacle for low-resourced organizations.
 :::
 
----
-
-# References
+# References {.smaller}
 
 Ayman Alhelbawy, Mark Lattimer, Udo Kruschwitz, Chris Fox, and Massimo Poesio. **An NLP-Powered Human Rights Monitoring Platform**. Expert Systems with Applications, 153, 2020. ISSN 0957-4174. [https://doi.org/10.1016/j.eswa.2020.113365](https://doi.org/10.1016/j.eswa.2020.113365).
 
 Yash Pilankar, Rejwanul Haque, Mohammed Hasanuzzaman, Paul Stynes, and Pramod Pathak. **Detecting Violation of Human Rights via Social Media**. In Proceedings of the First Computing Social Responsibility Workshop within the 13th Language Resources and Evaluation Conference, pages 40–45. European Language Resources Association, 2022. [https://aclanthology.org/2022.csrnlp-1.6](https://aclanthology.org/2022.csrnlp-1.6).
 
-Hoang Thang Ta, Abu Bakar Siddiqur Rahman, Lotfollah Najjar, and Alexander Gelbukh. GAN-BERT: Adversarial Learning for Detection of Aggressive and Violent Incidents from Social Media. In Proceedings of the Iberian Languages Evaluation Forum (IberLEF 2022), CEUR Workshop Proceedings, 2022. [https://ceur-ws.org/Vol-3202/davincis-paper7.pdf](https://ceur-ws.org/Vol-3202/davincis-paper7.pdf).
+Hoang Thang Ta, Abu Bakar Siddiqur Rahman, Lotfollah Najjar, and Alexander Gelbukh. **GAN-BERT: Adversarial Learning for Detection of Aggressive and Violent Incidents from Social Media**. In Proceedings of the Iberian Languages Evaluation Forum (IberLEF 2022), CEUR Workshop Proceedings, 2022. [https://ceur-ws.org/Vol-3202/davincis-paper7.pdf](https://ceur-ws.org/Vol-3202/davincis-paper7.pdf).
 
----
 
 # {.center}
 
