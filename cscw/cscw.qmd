@@ -9,6 +9,7 @@ format:
     logo: ../figs/oii.png
     preview-links: auto
     # footer: "ACM/CSCW 2025"
+    embed-resources: true
     transition: slide
 ---
 
@@ -27,7 +28,7 @@ Using AI with crowdsourced social media data is a promising resource for human r
 
 ## Background
 
-Previous studies had explored machine learning models for human rights monitoring (Alhelbawy et al., 2020; Pilankar et al., 2022; Ta et al., 2022).
+Previous studies have explored machine learning models for human rights monitoring (Alhelbawy et al., 2020; Pilankar et al., 2022; Ta et al., 2022).
 
 However, there was a gap in the literature regarding applications on...
 
@@ -128,7 +129,6 @@ The interviews and surveys allowed us to identify three major shortcomings:
 # Two years later, final words
 
 ::: {.incremental}
-
 Major LLMs may be powerful, but small, open-source models remain useful.
 
 Human rights monitoring: Academics 🤝 NGOs
@@ -149,8 +149,8 @@ Hoang Thang Ta, Abu Bakar Siddiqur Rahman, Lotfollah Najjar, and Alexander Gelbu
 
 Thank you!
 
-📧 [adriano@belisario.website](adriano@belisario.website)
+📧 Email: [adriano@belisario.website](adriano@belisario.website)
 
-👨🏻‍🏫 [https://belisario.website/crossfire_paper/](https://belisario.website/crossfire_paper/)
+🌐 Website: [belisario.website](belisario.website)
 
-🌐 [belisario.website](belisario.website)
+👨🏻‍🏫 Presentation: [belisario.website/crossfire_paper/](https://belisario.website/crossfire_paper/)
