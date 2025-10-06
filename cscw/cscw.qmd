@@ -17,65 +17,72 @@ format:
 
 ---
 
-Using AI with crowdsourced social media data is a promising resource for human rights monitoring (Alhelbawy et al, 2020), but... 
+## The needle in the haystack
 
-::: {.incremental}
+Social media is a valuable source for crowdsourcing evidence in human rights monitoring and investigations, but...
 
 - Keyword-based search leads to a high proportion of unrelated text.
 
-- Organizations have limited resources to deal with large volumes of data.
-::: 
+- Small teams can't process high volumes of data
 
-## Background
+---
 
-Previous studies have explored machine learning models for human rights monitoring (Alhelbawy et al., 2020; Pilankar et al., 2022; Ta et al., 2022).
+## What's been tried
 
-However, there was a gap in the literature regarding applications on...
+Machine learning models show promise (Alhelbawy et al., 2020; Pilankar et al., 2022), but gaps remain:
 
-::: {.incremental}
-- Applications for Portuguese-language texts.
+- Few real-world evaluations with actual organizations
 
-- Evaluations of adopting these models in real-world settings.
-::: 
+- No previous work on Portuguese-language texts
 
-## Our work 
+- Unknown impact on crowdworker workflows
+
+# Our work 
+
+---
 
 We deployed an **open-source language model** to assist crowdsourcing gun violence events with social media.
 
 Partnering with a Brazilian organization allowed us to **systematically evaluate** its application in a real-world setting in 2023.
 
-
-# Our partner
-
 ---
 
 ![](../figs/fogocruzado.png){.center}
 
-Fogo Cruzado (literally "Crossfire") monitors events of gun violence in four Brazilian cities. 
+Fogo Cruzado ("Crossfire") monitors events of gun violence in four Brazilian cities. 
 
 A small team of analysts track social media posts 24/7.
 
-They have been interacting with users who report gun violence on Twitter/X for years
+They have been interacting with users who report gun violence on Twitter/X for years.
 
 ---
 
+![](../figs/tweetdeck.jpeg){height="100vh"}
+
 Keyword-based search with geographical filters on Tweetdeck.
 
-![](../figs/tweetdeck.jpeg){height="90vh"}
+# Questions and methods
 
-# Questions
-
-::: {.incremental}
 **RQ1** - Can Transformer-based language models accurately identify gun violence reports in Brazilian Portuguese social media texts?
 
 **RQ2** - What are the advantages and challenges of adopting a language model for real-time monitoring compared to manually reviewing social media texts?
-:::
 
-## Methods
+---
 
-**RQ1:** BERT model trained on past analysts' interactions with tweets reporting gun violence.
+**RQ1: Model development**
+- Fine-tuned a BERT-based model on Portuguese tweets
 
-**RQ2:** We analyzed surveys, interviews, and interaction metrics (with a diff-in-diff model) before and after the adoption of our prototype.
+- Training data: Past analyst interactions with gun violence reports
+
+- Inference on CPU (accessible for low-resourced settings)
+
+**RQ2: Real-world deployment**
+
+- Built web interface integrated into workflow
+
+- Comparative evaluation: before/after adoption
+
+- Mixed methods: Surveys, interviews, interaction metrics (diff-in-diff)iff model).
 
 # Findings
 
@@ -99,7 +106,7 @@ Tweets were updated every fifteen minutes.
 
 The prototype effectively filtered out less relevant social media content.
 
-::: {.callout-tip}
+::: {.callout-note icon=false}
 
 ### Interview with an analyst
 
@@ -129,12 +136,20 @@ The interviews and surveys allowed us to identify three major shortcomings:
 # Two years later, final words
 
 ::: {.incremental}
-Major LLMs may be powerful, but small, open-source models remain useful.
+Small, open-source models remain useful.
 
-Human rights monitoring: Academics 🤝 NGOs
+The potential of partnerships between academics and NGOs.
 
-The closure of social media APIs poses a major obstacle for low-resourced organizations.
+Social media API closures threaten crowdsourcing infrastructure
 :::
+
+# Takeaways for CSCW
+
+🤝 **AI and small language models can amplify crowdsourcing**, not replace human judgment
+
+📊 **Real-world evaluation matters**: lab performance ≠ practical impact
+
+⚠️ **Platform dependencies are fragile**: closure of API access is critical
 
 # References {.smaller}
 
