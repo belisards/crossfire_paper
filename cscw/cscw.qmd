@@ -5,6 +5,7 @@ author: "Adriano Belisario, Scott A. Hale, Luc Rocher"
 format:
   revealjs:
     theme: simple
+    incremental: true   
     slide-number: true
     logo: ../figs/oii.png
     preview-links: auto
@@ -21,7 +22,7 @@ format:
 
 Social media is a valuable source for crowdsourcing evidence in human rights monitoring and investigations, but...
 
-- Keyword-based search leads to a high proportion of unrelated text.
+- Keyword-based search leads to a high proportion of unrelated text
 
 - Small teams can't process high volumes of data
 
@@ -31,11 +32,11 @@ Social media is a valuable source for crowdsourcing evidence in human rights mon
 
 Machine learning models show promise (Alhelbawy et al., 2020; Pilankar et al., 2022), but gaps remain:
 
-- Few real-world evaluations with actual organizations
+- Few real-world evaluations 
 
-- No previous work on Portuguese-language texts
+- Unknown impact on workflows
 
-- Unknown impact on crowdworker workflows
+- No previous work with Portuguese texts
 
 # Our work 
 
@@ -70,19 +71,10 @@ Keyword-based search with geographical filters on Tweetdeck.
 ---
 
 **RQ1: Model development**
-- Fine-tuned a BERT-based model on Portuguese tweets
-
-- Training data: Past analyst interactions with gun violence reports
-
-- Inference on CPU (accessible for low-resourced settings)
+Fine-tuned a BERT-based model on Portuguese tweets using past analyst interactions as training data.
 
 **RQ2: Real-world deployment**
-
-- Built web interface integrated into workflow
-
-- Comparative evaluation: before/after adoption
-
-- Mixed methods: Surveys, interviews, interaction metrics (diff-in-diff)iff model).
+We built a visual interface to help analysts navigate the model’s predictions and conducted an evaluation of its adoption using mixed methods, including surveys, interviews, and interaction metrics analyzed (diff-in-diff model).
 
 # Findings
 
@@ -96,11 +88,11 @@ A BERT-based model in Portuguese achieved good performance. Inference can be per
 
 ---
 
-## Our interface
-
-Tweets were updated every fifteen minutes.
+## The prototype
 
 ![](../figs/airtable.png)
+
+Tweets were updated every fifteen minutes.
 
 ## Signal-to-noise ratio
 
@@ -117,7 +109,7 @@ The prototype effectively filtered out less relevant social media content.
 
 ## Fewer filters, greater scope
 
-Our prototype removes the need for restrictive geolocation filters, allowing analysts to expand their search scope.
+Our prototype removed the need for restrictive geolocation filters, allowing analysts to expand their search scope.
 
 We estimated that analysts using the model engaged in nine additional daily interactions with users reporting events.
 
@@ -131,16 +123,6 @@ The interviews and surveys allowed us to identify three major shortcomings:
 - **Static keywords used for search**: terms need to be dynamically set to monitore live conflicts.
 
 - **Use of text-only features**: profile images also help analysts to decide if they will interact with users.
-:::
-
-# Two years later, final words
-
-::: {.incremental}
-Small, open-source models remain useful.
-
-The potential of partnerships between academics and NGOs.
-
-Social media API closures threaten crowdsourcing infrastructure
 :::
 
 # Takeaways for CSCW
