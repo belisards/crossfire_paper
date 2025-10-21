@@ -5,7 +5,7 @@ author: "Adriano Belisario, Scott A. Hale, Luc Rocher"
 format:
   revealjs:
     theme: simple
-    incremental: true
+    incremental: false
     slide-number: c/t
     show-slide-number: all
     logo: ../figs/oii.png
@@ -16,12 +16,17 @@ format:
     css: custom.css
 ---
 
-# Gun violence
+## The data gap on gun violence
+
+<small>
 
 Gun violence is a severe human rights issue that affects nearly every dimension of the social fabric, such as healthcare, education, psychology, and the economy.
 
 The United States and Brazil account for a large share of global firearm-related violence, reaching epidemic and public health crisis levels.
 
+Reliable data is crucial to develop effective policies and emergency responses. In Brazil, however, there are no official records of gun violence events.
+
+</small>
 
 ::: {.footer}
 <small>
@@ -33,12 +38,6 @@ Violence. 2022. [https://doi.org/10.1001/jama.2022.17293](https://doi.org/10.100
 
 </small>
 :::
-
-## Gun violence
-
-Reliable data is needed to develop effective policies and emergency responses.
-
-In Brazil, however, there are no granular official records of gun violence events.
 
 ---
 
@@ -120,9 +119,7 @@ To answer these questions, we **fine-tuned a BERT model** on past interactions a
 
 ## Text classification
 
-A BERT-based model in Portuguese achieved good performance. 
-
-Inference can be performed on CPUs.
+A BERT-based model in Portuguese achieved good performance (87% of recall for positive cases). 
 
 ![](../figs/test_interactions_pb.png)
 
@@ -132,7 +129,7 @@ Inference can be performed on CPUs.
 
 ![](../figs/airtable.png)
 
-Tweets were updated every fifteen minutes.
+Tweets were updated every fifteen minutes (later reduced to five).
 
 ## Signal-to-noise ratio
 
@@ -169,9 +166,9 @@ Interviews and surveys revealed valuable lessons for building more effective hum
 
 🧭 **Participatory design**: working closely with human rights organizations helps ensure tools meet real, on-the-ground needs.
 
-⚠️ **Platform dependencies are fragile**: closure of API access is critical.
-
 📊 **Real-world evaluation matters**: lab performance ≠ practical impact
+
+⚠️ **Platform dependencies are fragile**: closure of API access is critical.
 
 # Thank you!
 
