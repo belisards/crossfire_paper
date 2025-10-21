@@ -5,16 +5,62 @@ author: "Adriano Belisario, Scott A. Hale, Luc Rocher"
 format:
   revealjs:
     theme: simple
-    incremental: true   
-    slide-number: true
+    incremental: true
+    slide-number: c/t
+    show-slide-number: all
     logo: ../figs/oii.png
-    preview-links: auto
+    # preview-links: auto
     # footer: "ACM/CSCW 2025"
     embed-resources: true
     transition: slide
+    css: custom.css
 ---
 
-# The challenge
+# Gun violence
+
+Gun violence is a severe human rights issue that affects nearly every dimension of the social fabric, such as healthcare, education, psychology, and the economy.
+
+The United States and Brazil account for a large share of global firearm-related violence, reaching epidemic and public health crisis levels.
+
+
+::: {.footer}
+<small>
+
+Zejin Ou et al. Global burden and trends of firearm violence in 204 countries/territories from 1990 to 2019. Frontiers in Public Health, 2022. [https://www.frontiersin.org/articles/10.3389/fpubh.2022.966507](https://www.frontiersin.org/articles/10.3389/fpubh.2022.966507)
+
+Phil B. Fontanarosa and Kirsten Bibbins-Domingo. The Unrelenting Epidemic of Firearm
+Violence. 2022. [https://doi.org/10.1001/jama.2022.17293](https://doi.org/10.1001/jama.2022.17293)
+
+</small>
+:::
+
+## Gun violence
+
+Reliable data is needed to develop effective policies and emergency responses.
+
+In Brazil, however, there are no granular official records of gun violence events.
+
+---
+
+![](../figs/fogocruzado.png){.center}
+
+Fogo Cruzado ("Crossfire") monitors events of gun violence in four Brazilian cities. 
+
+Analysts track social media posts and on-the-ground sources 24/7.
+
+They have been interacting with users who report gun violence on Twitter/X since 2018.
+
+---
+
+![](../figs/tweetdeck.jpeg){height="100vh"}
+
+Keyword-based search with geographical filters on Tweetdeck.
+
+---
+
+![](../figs/screenshot.png){height="100vh"}
+
+Mobile app shows real-time alerts of gun violence events.
 
 ---
 
@@ -30,59 +76,53 @@ Social media is a valuable source for crowdsourcing evidence in human rights mon
 
 ## What's been tried
 
-Machine learning models show promise (Alhelbawy et al., 2020; Pilankar et al., 2022), but gaps remain:
+Previous works show that machine learning models can help human rights organizations to filter large volumes of data.
 
-- Few real-world evaluations 
+However, we found several gaps in previous research:
 
-- Unknown impact on workflows
+- No systematic evaluations of adopting these model in real-world settings
 
 - No previous work with Portuguese texts
 
-# Our work 
+::: {.footer}
+<small>
+Ayman Alhelbawy et al. An NLP-Powered Human Rights Monitoring Platform. Expert Systems with Applications, 2020. https://doi.org/10.1016/j.eswa.2020.113365.
+</small>
+:::
 
 ---
 
-We deployed an **open-source language model** to assist crowdsourcing gun violence events with social media.
+## Our Work  
 
-Partnering with a Brazilian organization allowed us to **systematically evaluate** its application in a real-world setting in 2023.
+<small>
 
----
+We built an **open-source language model** to help **crowdsource gun violence reports** from social media.  
 
-![](../figs/fogocruzado.png){.center}
+With **Fogo Cruzado**, we **tested its real-world use** in Brazil (2023).  
 
-Fogo Cruzado ("Crossfire") monitors events of gun violence in four Brazilian cities. 
+We asked whether **Transformer-based models can detect gun violence reports in Portuguese** and how they **support analysts in daily monitoring**.  
 
-A small team of analysts track social media posts 24/7.
+To answer these questions, we **fine-tuned a BERT model** on past interactions and **built a web prototype** to visualize results,  evaluating its impact through **surveys, interviews, and interaction metrics** (diff-in-diff).  
 
-They have been interacting with users who report gun violence on Twitter/X for years.
+</small>
 
----
+## Text classification
 
-![](../figs/tweetdeck.jpeg){height="100vh"}
+<small>
 
-Keyword-based search with geographical filters on Tweetdeck.
+| **Positive Examples** | **Negative Examples** |
+|-----------------------------|-----------------------------|
+| Gunshots started going off right when I ordered a milkshake. I hope this man is a brave warrior. | Sometimes, certain words are like a shot, especially when you’re feeling a little insecure. |
+| People here randomly fire off shots out of nowhere. | Oh so many distracted friends’ photos that I took Jesus I deserved to get shot lol. |
+| I already wake up startled, hearing gunshots. | I’m trying to let my nails grow, but when anxiety attacks, I tear them all off. |
 
-# Questions and methods
+</small>
 
-**RQ1** - Can Transformer-based language models accurately identify gun violence reports in Brazilian Portuguese social media texts?
+## Text classification
 
-**RQ2** - What are the advantages and challenges of adopting a language model for real-time monitoring compared to manually reviewing social media texts?
+A BERT-based model in Portuguese achieved good performance. 
 
----
-
-**RQ1: Model development**
-Fine-tuned a BERT-based model on Portuguese tweets using past analyst interactions as training data.
-
-**RQ2: Real-world deployment**
-We built a visual interface to help analysts navigate the model’s predictions and conducted an evaluation of its adoption using mixed methods, including surveys, interviews, and interaction metrics analyzed (diff-in-diff model).
-
-# Findings
-
----
-
-## Small and open source
-
-A BERT-based model in Portuguese achieved good performance. Inference can be performed on CPUs.
+Inference can be performed on CPUs.
 
 ![](../figs/test_interactions_pb.png)
 
@@ -111,43 +151,47 @@ The prototype effectively filtered out less relevant social media content.
 
 Our prototype removed the need for restrictive geolocation filters, allowing analysts to expand their search scope.
 
-We estimated that analysts using the model engaged in nine additional daily interactions with users reporting events.
+We estimate that analysts using the model engaged in about nine additional daily interactions (a 40% increase) with users reporting gun violence events.
 
-## Limitations
+## Insights for future works
 
-The interviews and surveys allowed us to identify three major shortcomings:
+Interviews and surveys revealed valuable lessons for building more effective human-AI monitoring tools:
 
-::: {.incremental}
-- **The delay between each update**: promptly updating new tweets is critical.
+- **Timeliness matters**: frequent, near-real-time updates are essential to support analysts responding to fast-evolving events.
 
-- **Static keywords used for search**: terms need to be dynamically set to monitore live conflicts.
+- **Flexibility in keyword management**: allowing dynamic search terms can better capture emerging language during live conflicts.
 
-- **Use of text-only features**: profile images also help analysts to decide if they will interact with users.
-:::
+- **Beyond text**: integrating visual and contextual cues, such as profile images, can enhance analysts’ decision-making.
 
 # Takeaways for CSCW
 
-🤝 **AI and small language models can amplify crowdsourcing**, not replace human judgment
+🤝 **AI can amplify crowdsourcing**, not replace human judgment.
+
+🧭 **Participatory design**: working closely with human rights organizations helps ensure tools meet real, on-the-ground needs.
+
+⚠️ **Platform dependencies are fragile**: closure of API access is critical.
 
 📊 **Real-world evaluation matters**: lab performance ≠ practical impact
 
-⚠️ **Platform dependencies are fragile**: closure of API access is critical
+# Thank you!
 
-# References {.smaller}
+:::: {.columns}
 
-Ayman Alhelbawy, Mark Lattimer, Udo Kruschwitz, Chris Fox, and Massimo Poesio. **An NLP-Powered Human Rights Monitoring Platform**. Expert Systems with Applications, 153, 2020. ISSN 0957-4174. [https://doi.org/10.1016/j.eswa.2020.113365](https://doi.org/10.1016/j.eswa.2020.113365).
+::: {.column width="70%"}
+<small>
 
-Yash Pilankar, Rejwanul Haque, Mohammed Hasanuzzaman, Paul Stynes, and Pramod Pathak. **Detecting Violation of Human Rights via Social Media**. In Proceedings of the First Computing Social Responsibility Workshop within the 13th Language Resources and Evaluation Conference, pages 40–45. European Language Resources Association, 2022. [https://aclanthology.org/2022.csrnlp-1.6](https://aclanthology.org/2022.csrnlp-1.6).
+📧 **Email:** [adriano@belisario.website](mailto:adriano@belisario.website)  
 
-Hoang Thang Ta, Abu Bakar Siddiqur Rahman, Lotfollah Najjar, and Alexander Gelbukh. **GAN-BERT: Adversarial Learning for Detection of Aggressive and Violent Incidents from Social Media**. In Proceedings of the Iberian Languages Evaluation Forum (IberLEF 2022), CEUR Workshop Proceedings, 2022. [https://ceur-ws.org/Vol-3202/davincis-paper7.pdf](https://ceur-ws.org/Vol-3202/davincis-paper7.pdf).
+🌐 **Website:** [belisario.website](https://belisario.website)  
 
+👨🏻‍🏫 **Presentation:** [belisario.website/crossfire_paper/](https://belisario.website/crossfire_paper/)
 
-# {.center}
+</small>
 
-Thank you!
+:::
 
-📧 Email: [adriano@belisario.website](adriano@belisario.website)
+::: {.column width="30%"}
+![](../figs/qrcode.png){width=80%}
+:::
 
-🌐 Website: [belisario.website](belisario.website)
-
-👨🏻‍🏫 Presentation: [belisario.website/crossfire_paper/](https://belisario.website/crossfire_paper/)
+::::
