@@ -20,19 +20,24 @@ pdflatex main.tex
 - **Date**: November 2025
 - **DOI**: [10.1145/3757416](https://doi.org/10.1145/3757416)
 
-**Note: This paper is accepted for publication but not yet officially published.**
-
 ```bibtex
-@article{belisario2025crossfire,
-  title={Into the crossfire: evaluating the use of a language model to crowdsource gun violence reports},
-  author={Belisario, Adriano and Hale, Scott A. and Rocher, Luc},
-  journal={Proceedings of the ACM on Human-Computer Interaction},
-  volume={9},
-  number={7},
-  pages={CSCW235},
-  year={2025},
-  publisher={ACM},
-  doi={10.1145/3757416}
+@article{10.1145/3757416,
+author = {Belisario, Adriano and Hale, Scott A. and Rocher, Luc},
+title = {Into the Crossfire: Evaluating the Use of a Language Model to Crowdsource Gun Violence Reports},
+year = {2025},
+issue_date = {November 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {9},
+number = {7},
+url = {https://doi.org/10.1145/3757416},
+doi = {10.1145/3757416},
+abstract = {Gun violence is a pressing human rights issue that affects nearly every dimension of the social fabric, from healthcare and education to psychology and the economy. Reliable data on firearm events is paramount to developing more effective public policy and emergency responses. However, the lack of comprehensive databases and the risks of in-person surveys prevent human rights organizations from collecting needed data in most countries. Here, we partner with a Brazilian human rights organization to conduct a systematic evaluation of language models to assist with monitoring real-world firearm events from social media data. We propose a fine-tuned BERT-based model trained on Twitter (now X) texts to distinguish gun violence reports from ordinary Portuguese texts. We then incorporate our model into a web application and test it in a live intervention. We study and interview Brazilian analysts who continuously check social media texts to identify new gun violence events. Qualitative assessments show that our solution helped all analysts use their time more efficiently and expanded their search capacities. Quantitative assessments show that the use of our model was associated with analysts having further interactions with online users reporting gun violence. Our findings suggest that human-centered interventions using language models can help support the work of human rights organizations.},
+journal = {Proc. ACM Hum.-Comput. Interact.},
+month = oct,
+articleno = {CSCW235},
+numpages = {31},
+keywords = {crowdsourcing, firearm violence, quantitative human rights, social media, text classification}
 }
 ```
 
